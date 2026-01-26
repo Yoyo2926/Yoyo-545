@@ -1,1 +1,1 @@
-# every week's assignments are in different branches named as week-n
+# every week's assignments are in different folder named as weekn
