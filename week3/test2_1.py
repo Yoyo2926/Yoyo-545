@@ -1,6 +1,11 @@
 #EW Covariance, lambd=0.97
 #Input: test2.csv
 #Output: testout_2.1.csv
+
+'''
+EW是给最近的数据更高的权重
+今天的协方差可以写成昨天协方差和今天新冲击的函数
+'''
 import numpy as np
 import pandas as pd
 

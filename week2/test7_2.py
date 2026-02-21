@@ -1,3 +1,5 @@
+#Fit T Distribution
+#均值、方差和自由度
 import pandas as pd
 from scipy.stats import t
 
@@ -7,5 +9,4 @@ x = data.iloc[:, 0].values
 nu, mu, sigma = t.fit(x)
 
 pd.DataFrame([[nu, mu, sigma]],
-             columns=["nu", "mu", "sigma"]) \
-  .to_csv("testout_7.2.csv", index=False)
+             columns=["nu", "mu", "sigma"]).to_csv("testout_7.2.csv", index=False)

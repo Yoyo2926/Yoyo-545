@@ -1,3 +1,5 @@
+#T Regression
+#回归系数 + 误差分布参数
 import pandas as pd
 import numpy as np
 from scipy.stats import t
